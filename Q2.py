@@ -1,5 +1,7 @@
-a= 337
+name="my name is babita khatri"
 
-b=5
+print(name.find("  "))
 
-print("remainder of a and b is:",a%b)
+name="my name is babita  khatri"
+
+print(name.find("  "))

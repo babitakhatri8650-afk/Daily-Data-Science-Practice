@@ -1,5 +1,3 @@
-a=  int(input("enter a number:"))
+letter="Dear Harry,\n\tThis python course is nice,\nThanks!"
 
-b= int(input("enter a number:"))
-
-print("a is greater than b is:",a>b)
+print(letter)

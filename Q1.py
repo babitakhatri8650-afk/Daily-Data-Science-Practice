@@ -1,5 +1,5 @@
-a=4
+name=input("enter your name:")
 
-b=6
+print("good afternoon",name)
 
-print(a+b)
+print(f"good afternoon {name}")
