@@ -1,4 +1,5 @@
-a=  int(input("enter a number:"))
+a=(7,0,8,0,0,5,5,3,0,0,0,0)
 
-b= int(input("enter a number:"))
-print("The average of two numbers is:",(a+b)/2)
+n=a.count(0)
+
+print(n)

@@ -1,3 +1,3 @@
-letter="Dear Harry,\n\tThis python course is nice,\nThanks!"
+list=[23,56,78,98,300]
 
-print(letter)
+print(sum(list))
