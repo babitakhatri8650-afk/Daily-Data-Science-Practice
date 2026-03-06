@@ -1,2 +1,7 @@
-s={2,4,6,"harry",[1,9],7}
+post=input("enter any word:")
 
+if "harry" in post.lower():
+    print("This post is talking about Harry")
+
+else:
+    print("This post is not talking about Harry")
