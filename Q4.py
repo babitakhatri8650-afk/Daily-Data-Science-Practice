@@ -1,3 +1,8 @@
-list=[23,56,78,98,300]
+s=set()
 
-print(sum(list))
+s.add(20)
+
+s.add(20.0)
+
+s.add("20")
+print(s)

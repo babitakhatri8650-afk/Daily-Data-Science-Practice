@@ -1,8 +1,21 @@
-a=  int(input("enter a number:"))
+d={}
 
-print("The sqaure of the number is:",a*a)
+name=input("Enter name of friends:")
+lang=input("Enter name of language:")
 
-print("the sqaure of the number is:",a**2)
-# print("the sqaure of the number is:")    #incorrect way
+d.update({name:lang})
 
+name=input("Enter name of friends:")
+lang=input("Enter name of language:")
 
+d.update({name:lang})
+name=input("Enter name of friends:")
+lang=input("Enter name of language:")
+
+d.update({name:lang})
+name=input("Enter name of friends:")
+lang=input("Enter name of language:")
+
+d.update({name:lang})
+
+print(d)

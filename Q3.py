@@ -1,6 +1,5 @@
-a=(32,45,67,88,43,"harry")
+s=set()
+s.add(18)
+s.add("18")
 
-
-a[4]="larry"
-
-print(a)
+print(s)

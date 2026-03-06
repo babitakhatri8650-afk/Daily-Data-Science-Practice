@@ -1,31 +1,9 @@
-fruits=[]
-f1=input("enter fruit name:")
+words={
+    "madad":"help",
+    "aam":"mango",
+    "kaun":"who"
+    }
 
-fruits.append(f1)
+word=input("Enter word what you want:")
 
-f2=input("enter fruit name:")
-
-fruits.append(f2)
-
-f3=input("enter fruit name:")
-
-fruits.append(f3)
-
-f4=input("enter fruit name:")
-
-fruits.append(f4)
-
-f5=input("enter fruit name:")
-
-fruits.append(f5)
-
-f6=input("enter fruit name:")
-
-fruits.append(f6)
-
-f7=input("enter fruit name:")
-
-fruits.append(f7)
-
-print(fruits)
-
+print(words[word])
