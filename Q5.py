@@ -1,10 +1,8 @@
-list=["gaurav","yogesh","jyoti","rina","manisha"]
-
-name=input("Enter your name:")
-
-if name in list :
-    print("Your name is in list")
-else:
-    print("Your name is not in list")
-
+n=int(input("Enter number:"))
+i=1
+sum=0
+while i<=n:
+    sum +=i
+    i+=1
+print(sum)
     
