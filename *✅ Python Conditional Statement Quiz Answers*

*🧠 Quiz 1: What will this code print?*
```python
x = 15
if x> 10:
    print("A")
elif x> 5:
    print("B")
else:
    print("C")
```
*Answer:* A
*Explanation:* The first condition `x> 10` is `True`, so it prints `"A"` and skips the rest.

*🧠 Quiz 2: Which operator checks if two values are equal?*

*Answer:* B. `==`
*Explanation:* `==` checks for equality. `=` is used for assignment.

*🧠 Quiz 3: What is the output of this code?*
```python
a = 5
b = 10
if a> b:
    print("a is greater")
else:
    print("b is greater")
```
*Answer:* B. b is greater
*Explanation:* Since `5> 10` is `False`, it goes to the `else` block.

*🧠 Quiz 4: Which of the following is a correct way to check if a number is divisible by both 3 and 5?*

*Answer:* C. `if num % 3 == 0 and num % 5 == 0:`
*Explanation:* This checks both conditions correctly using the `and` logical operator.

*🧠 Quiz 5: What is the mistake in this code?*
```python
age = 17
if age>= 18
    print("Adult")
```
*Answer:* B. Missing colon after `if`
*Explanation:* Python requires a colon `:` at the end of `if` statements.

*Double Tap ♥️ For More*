@@ -1,0 +1,46 @@
+*✅ Python Conditional Statement Quiz Answers*
+
+*🧠 Quiz 1: What will this code print?*
+```python
+x = 15
+if x> 10:
+    print("A")
+elif x> 5:
+    print("B")
+else:
+    print("C")
+```
+*Answer:* A
+*Explanation:* The first condition `x> 10` is `True`, so it prints `"A"` and skips the rest.
+
+*🧠 Quiz 2: Which operator checks if two values are equal?*
+
+*Answer:* B. `==`
+*Explanation:* `==` checks for equality. `=` is used for assignment.
+
+*🧠 Quiz 3: What is the output of this code?*
+```python
+a = 5
+b = 10
+if a> b:
+    print("a is greater")
+else:
+    print("b is greater")
+```
+*Answer:* B. b is greater
+*Explanation:* Since `5> 10` is `False`, it goes to the `else` block.
+
+*🧠 Quiz 4: Which of the following is a correct way to check if a number is divisible by both 3 and 5?*
+
+*Answer:* C. `if num % 3 == 0 and num % 5 == 0:`
+*Explanation:* This checks both conditions correctly using the `and` logical operator.
+
+*🧠 Quiz 5: What is the mistake in this code?*
+```python
+age = 17
+if age>= 18
+    print("Adult")
+```
+*Answer:* B. Missing colon after `if`
+*Explanation:* Python requires a colon `:` at the end of `if` statements.
+
