@@ -1,7 +1,11 @@
-post=input("enter any word:")
 
-if "harry" in post.lower():
-    print("This post is talking about Harry")
+'''
+  *
+ ***
+*****'''
+n=int(input("Enter number:  "))
 
-else:
-    print("This post is not talking about Harry")
+for i in range(1,n+1):
+    print(" "*(n-i),end="")
+    print("*"*(2*i-1),end="")
+    print("")
