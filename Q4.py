@@ -1,9 +1,15 @@
-n=int(input("Enter number:"))
+'''
+Recurrsion function
+for example
+sum(1)=1
+sum(2)=1+2
+sum(3)=1+2+3
+sum(4)=1+2+3+4
+sum(n)=sum(n-1)+n'''
 
-for i in range(2,n):
-    if n%i==0:
-        print("This number is not prime")
-        break
-else:
-    print("This number is prime")
-    
+
+def sum(n):
+    if n==1:
+        return 1
+    return sum(n-1)+n
+print(sum(4))    

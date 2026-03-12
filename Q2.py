@@ -1,5 +1,5 @@
-list=["Harish","Suresh","Rajesh","Surendra"]
+def f_to_c(f):
+    return 5*(f-32)/9
 
-for name in list:
-    if name.startswith("S"):
-        print(f"Hello {name}")
+f=int(input("Enter temperature:"))
+print(f_to_c(f))
